@@ -9,6 +9,14 @@
 *.userosscache
 *.sln.docstates
 
+# Gabs-specific files
+*.zip
+*.mp4
+*.mp3
+*.opus
+*.aac
+*.m4a
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
