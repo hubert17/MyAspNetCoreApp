@@ -1,4 +1,13 @@
-﻿body {
+﻿/* Hide all element while Vue is mounting */
+[v-cloak] > * {
+    display: none;
+}
+
+[v-cloak]::before {
+    content: "loading...";
+}
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
